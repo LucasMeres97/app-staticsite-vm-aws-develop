@@ -11,9 +11,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "tf-exame"
+    bucket         = "baldedokinha"
     key            = "terraform.tfstate"
-    dynamodb_table = "tf-exame"
+    dynamodb_table = "tf-kinha"
     region         = "us-east-1"
   }
 
