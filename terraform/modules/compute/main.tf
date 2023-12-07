@@ -50,3 +50,5 @@ resource "aws_instance" "instance" {
     user_data              = "${base64encode(data.template_file.user_data.rendered)}"
 }
 
+
+

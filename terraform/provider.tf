@@ -11,9 +11,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "baldedokinha"
+    bucket         = "bucketkledin"
     key            = "terraform.tfstate"
-    dynamodb_table = "tf-kinha"
+    dynamodb_table = "tabelacp3"
     region         = "us-east-1"
   }
 
