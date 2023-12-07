@@ -49,3 +49,4 @@ resource "aws_instance" "instance" {
     vpc_security_group_ids = [aws_security_group.sg_public.id]
     user_data              = "${base64encode(data.template_file.user_data.rendered)}"
 }
+
